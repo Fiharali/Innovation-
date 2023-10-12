@@ -56,7 +56,13 @@ header .header nav ul li {
 }
 header .header nav ul li a {
   text-decoration: none;
+  border-bottom:5px rgba(255, 0, 0, 0) solid ;
+  transition: .7s; 
 }
+header .header nav ul li a:hover {
+ border-bottom-color: #0a8080 ;
+color: #0a8080;
+ }
 header .header .login {
   text-align: center;
 }
@@ -135,7 +141,20 @@ section.Creativity .main button {
   margin-top: 10px;
   background-color: #0a8080;
   margin-bottom: 10px;
+  cursor: pointer;
+  transition: .5s;
 }
+
+
+
+section.Creativity .main button:hover {
+  color: white;
+  border-color: #0a8080;
+  background-color: var(--mainColor);
+  color: #0a8080;
+
+}
+
 
 @media (max-width: 880px) {
   section.Creativity {
@@ -265,6 +284,7 @@ section.third-Creativity .container div div p {
   margin: 0 -4.9%;
   text-align: center;
   position: relative;
+  
 }
 .Fourth-Creativity .text p {
   position: relative;
@@ -291,10 +311,8 @@ section.third-Creativity .container div div p {
 @media (max-width: 880px) {
   .Fourth-Creativity {
     height: 70vh;
-    background-color: var(--mainColor);
     margin: 0 -2%;
-    text-align: center;
-    position: relative;
+
   }
 }
 /* end -Creativity   */
@@ -371,6 +389,10 @@ section.third-Creativity .container div div p {
   border: none;
   border-radius: 5px;
 }
+.contact .main .form div.subscribe input[type="text"]:focus {
+  border: none;
+  outline: none;
+}
 .contact .main .form div.subscribe button {
   background-color: #db4a87;
   padding: 15px 35px;
@@ -381,12 +403,18 @@ section.third-Creativity .container div div p {
 
 .contact .main .form div.subscribe input[type="checkbox"] {
   background-color: #D4DAE2;
-  
+  accent-color: #D4DAE2;
   color: #d4dae2;
+
   margin-top: 10px;
-  /* margin-left:  40px; */
-  border: none;
-  border-radius: 5px;
+  /* appearance: none;
+  -webkit-appearance: none; */
+  /* background: red; */
+  /* border: 6px solid #D4DAE2; */
+  
+}
+.contact .main .form div.subscribe label {
+  color: #d4dae2;
 }
 @media (max-width: 880px) {
   .contact {
