@@ -213,12 +213,68 @@ section.superheros div:last-child {
 }
 
 @media (max-width: 880px) {
-  section.superheros   {
-   width: 95vw;
-   overflow: scroll;
+  section.superheros {
+    width: 95vw;
+    overflow: scroll;
   }
 }
-/* start superhero    */
+/* end superhero    */
+/* ################ */
+/* start Popular    */
+section.Popular {
+  margin-top: 200px;
+}
+section.Popular .title {
+  text-align: center;
+}
+section.Popular .title p {
+  color: #0f2137;
+  font-weight: normal;
+}
+
+.Popular .textCard {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  flex-wrap: wrap;
+  gap: 30px;
+  line-height: 28px;
+  border-radius:30px ;
+}
+.Popular .textCard div p {
+  color: #0f2137b1;
+}
+.Popular .textCard div .bg-text {
+  background-color: #afaba842;
+  padding: 25px;
+  margin-top: -.0001%;
+}
+.Popular .textCard h2 {
+  font-size: 21px;
+}
+
+
+.Popular .textCard div .textImage {
+  position: relative;
+}
+.Popular .textCard div .textImage h3 {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  color: #ffffff;
+}
+
+.Popular .textCard div .textImage:last-child  img {
+ margin-top: 5%;
+}
+@media (max-width: 880px) {
+.Popular img{
+  width: 99%;
+}
+}
+
+/* end Popular    */
 /* ################ */
 /* start Footer    */
 
