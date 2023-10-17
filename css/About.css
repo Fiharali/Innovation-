@@ -43,6 +43,10 @@ header .header nav ul {
   align-items: center;
   /* background-color: #f90000; */
 }
+
+header .header nav {
+  transition: all 1s ease-in-out;
+}
 header .header nav ul {
   padding-left: 0;
 }
@@ -61,6 +65,7 @@ header .header nav ul li a:hover {
 }
 header .header .login {
   text-align: center;
+  transition: all 1s ease-in-out;
 }
 header .header .login span {
   padding-left: 16px;
@@ -74,6 +79,7 @@ header .header .login span img {
   bottom: -20%;
   right: 0;
 }
+
 
 @media (max-width: 880px) {
   header {
@@ -123,6 +129,7 @@ div.why-what {
   padding-inline: 200px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  transition: all 1s ease-in-out;
 }
 div.why-what h1 {
   font-size: 15px;
@@ -240,7 +247,7 @@ section.Popular .title p {
   flex-wrap: wrap;
   gap: 30px;
   line-height: 28px;
-  border-radius:30px ;
+  border-radius: 30px;
 }
 .Popular .textCard div p {
   color: #0f2137b1;
@@ -248,12 +255,11 @@ section.Popular .title p {
 .Popular .textCard div .bg-text {
   background-color: #afaba842;
   padding: 25px;
-  margin-top: -.0001%;
+  margin-top: -0.0001%;
 }
 .Popular .textCard h2 {
   font-size: 21px;
 }
-
 
 .Popular .textCard div .textImage {
   position: relative;
@@ -265,13 +271,16 @@ section.Popular .title p {
   color: #ffffff;
 }
 
-.Popular .textCard div .textImage:last-child  img {
- margin-top: 5%;
+.Popular .textCard div .textImage:last-child img {
+  margin-top: 5%;
 }
 @media (max-width: 880px) {
-.Popular img{
-  width: 99%;
-}
+  .Popular img {
+    width: 99%;
+  }
+  .Popular .textCard div .textImage h3 {
+    top: 30%;
+  }
 }
 
 /* end Popular    */
@@ -314,7 +323,26 @@ footer .footer div {
       margin: 0 auto; */
 }
 
-/* @media (max-width: 880px) {
-     
-    } */
 /* end Footer   */
+
+/* test */
+.fa-solid.fa-bars {
+  display: none;
+}
+
+@media (max-width: 880px) {
+  .fa-solid.fa-bars {
+    display: block;
+    padding-left: 30px;
+  }
+
+  .hide {
+    transform: translateY(-600%);
+    /* display: none; */
+  }
+
+  .afterHide {
+    margin-top: -160px !important;
+   
+  }
+}
