@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
-  content="Empowering startups and fostering innovation. Discover resources, guidance, and opportunities to fuel your entrepreneurial journey.">
+    content="Empowering startups and fostering innovation. Discover resources, guidance, and opportunities to fuel your entrepreneurial journey.">
   <title>Document</title>
   <link href="https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&display=swap"
     rel="stylesheet" />
@@ -21,17 +21,24 @@
     <div class="header">
       <div class="logo">
         <img src="img/logo.png" alt="logo" />
-        <span>Innovation</span>
+        <span>Innovation </span>
+        <i class="fa-solid fa-bars  " id="menu"></i>
       </div>
-      <nav>
+      <nav id="nav">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="">Adversite</a></li>
-          <li><a href="Support.html">Support</a></li>
-          <li><a href="About.html">About</a></li>
+          <li><a href="/index.html">Home</a></li>
+          <li class="ulDrop"><a href="#">Advertise <i class="fa-solid fa-caret-down"></i></a>
+            <ul class="dropNav">
+              <li> Advertise </li>
+              <li> Advertise </li>
+              <li> Advertise </li>
+            </ul>
+          </li>
+          <li><a href="/Support.html">Support</a></li>
+          <li><a href="/About.html">About</a></li>
         </ul>
       </nav>
-      <div class="login">Login
+      <div class="login" id="getLogin">Login
         <span>
           Get Started
           <img src="img/getStarted.png" alt="getStarted">
@@ -41,8 +48,52 @@
   </header>
   <!-- end Header       -->
   <!-- #################-->
+  <!-- start main      -->
+  <section class="main">
+    <h1>Engaging you with Creative Design</h1>
+    <p> in consumer behavior. It requires a strategic approach, <br>
+      audience, and the ability to adapt to new trends .<br>
+      monitor the performance of youadjustments your results.</p>
+    
+    <div class="allCards">
+      <div class="mainCard">
+        <i class="fa-solid fa-earth-americas fa-2xl" style="color: #3176ed;"></i>
+        <h2>3D modeling & art</h2>
+        <p>3D modeling and art involve the <br>
+          creation of three-dimensional <br>
+          digital representations of</p>
+          <button>More</button>
+      </div>
+      <div class="mainCard">
+        <i class="fa-solid fa-earth-americas fa-2xl" style="color: #3176ed;"></i>
+        <h2>3D modeling & art</h2>
+        <p>3D modeling and art involve the <br>
+          creation of three-dimensional <br>
+          digital representations of</p>
+          <button>More</button>
+      </div>
+      <div class="mainCard">
+        <i class="fa-solid fa-earth-americas fa-2xl" style="color: #3176ed;"></i>
+        <h2>3D modeling & art</h2>
+        <p>3D modeling and art involve the <br>
+          creation of three-dimensional <br>
+          digital representations of</p>
+          <button>More</button>
+      </div>
+      <div class="mainCard">
+        <i class="fa-solid fa-earth-americas fa-2xl" style="color: #3176ed;"></i>
+        <h2>3D modeling & art</h2>
+        <p>3D modeling and art involve the <br>
+          creation of three-dimensional <br>
+          digital representations of</p>
+          <button>More</button>
+      </div>
+    </div>
+  </section>
+  <!-- end main       -->
+  <!-- #################-->
   <!-- start choosePlan -->
-  <div class="choosePlan">
+  <div class="choosePlan" id="afterHide">
     <h1>Choose your plans</h1>
     <p>We accommodate a variety of different payment options</p>
   </div>
@@ -187,7 +238,7 @@
   <!-- end sevices  -->
   <!-- ############  -->
   <!-- start Footer  -->
-   <footer>
+  <footer>
     <div class="footer">
       <div>
         <div class="logoInnovation">
@@ -246,7 +297,8 @@
         <i class="fa-solid fa-basketball" style="color: #B2215A;"></i> </i>Dribble
       </div>
     </div>
-  </footer> 
+  </footer>
+  <script src="js/About.js"></script>
 </body>
 
 </html>

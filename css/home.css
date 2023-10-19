@@ -1,129 +1,10 @@
-/* global reuls      */
-
-* {
-  font-family: "b612";
-}
-body {
-  padding: 10px 60px;
-  /* height: 700vh; */
-}
-:root {
-  --mainColor: #fff5ed;
-}
-/* end global reuls  */
-/* ################# */
-/* start Header      */
-header{
-  position: sticky;
-  top: 0;
-  backdrop-filter: blur(400px);
-  z-index: 1000;
-  
-}
-header .header {
- 
-  padding: 0px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
- 
-}
-
-header .header img {
-  width: 76px;
-}
-header .header .logo {
-  display: flex;
-  align-items: center;
-}
-header .header .logo span {
-  font-size: xx-large;
-}
-header .header nav ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* background-color: #f90000; */
-}
-header .header nav ul {
-  padding-left: 0;
-}
-
-header .header nav ul li {
-  list-style: none;
-  padding: 10px;
-}
-header .header nav ul li a {
-  text-decoration: none;
-  border-bottom:5px rgba(255, 0, 0, 0) solid ;
-  transition: .7s; 
-}
-header .header nav ul li a:hover {
- border-bottom-color: #0a8080 ;
-color: #0a8080;
- }
-header .header .login {
-  text-align: center;
-}
-header .header .login span {
-  padding-left: 16px;
-  align-items: center;
-  color: #0a8080;
-  position: relative;
-}
-header .header .login span img {
- max-width: 100px;
- position: absolute;
- bottom: -20%;
- right: 0;
-}
-
-@media (max-width: 880px) {
-
-  header{
-    position: initial;
-    backdrop-filter: initial;
-  }
-
-  header .header {
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    /* text-align: ; */
-  }
-
-  header .header nav ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    /* margin-left: -13vh; */
-  }
-  body {
-    padding: 0;
-  }
-  header .header {
-    padding: 0px;
-  }
-  header .header .login span {
-    padding: 0px;
-    margin-left: 8px;
-    align-items: center;
-  }
-  header .header .login span {
-    display: block;
-    align-items: center;
-    padding: 10px;
-  }
-}
-/* end Header       */
+@import url("Header&Footer.css");
 /* ################ */
 /* start Creativity */
 section.Creativity {
   text-align: center;
   padding: 100px 40px 10px;
+  transition: all 1s linear;
 }
 
 section.Creativity .main h1 {
@@ -174,9 +55,11 @@ section.second-Creativity {
   /* padding: 0; */
   margin: 0 -4.9%;
   margin-top: 440px;
+
 }
 section.second-Creativity .container {
   position: relative;
+  
 }
 section.second-Creativity .container img {
   max-width: 70%;
@@ -439,43 +322,4 @@ section.third-Creativity .container div div p {
 }
 /* end contact   */
 /* ###################### */
-/* start Footer    */
-footer .footer {
-  /* background-color: #d60505; */
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  padding: 10px;
-  column-gap: 20px;
-  row-gap: 20px;
-  text-align: center;
-}
-footer .footer div .logoInnovation {
-  display: flex;
-  align-items: center;
-}
-footer .footer div .logoInnovation img {
-  width: 27%;
-}
-footer .footer div .logoInnovation h1 {
-  display: inline;
-  font-size: 20px;
-  font-family: "b612";
-  margin-top: 20%;
-}
-footer .footer div span {
-  display: block;
-  font-weight: bolder;
-}
 
-footer .footer div {
-  text-align: left;
-  /* width: fit-content;
-  margin: 0 auto; */
-}
-
-
-
-/* @media (max-width: 880px) {
- 
-} */
-/* end Footer   */
