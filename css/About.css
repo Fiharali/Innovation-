@@ -14,7 +14,7 @@ div.why-what h1 {
   font-family: "DM Sans";
   font-weight: 600;
 }
-@media (max-width: 880px) {
+@media (max-width: 900px) {
   div.why-what {
     padding-inline: 10px;
   }
@@ -97,7 +97,7 @@ section.superheros div:last-child {
   opacity: 0.6;
 }
 
-@media (max-width: 880px) {
+@media (max-width: 900px) {
   section.superheros {
     width: 95vw;
     overflow: scroll;
@@ -152,7 +152,7 @@ section.Popular .title p {
 .Popular .textCard div .textImage:last-child img {
   margin-top: 5%;
 }
-@media (max-width: 880px) {
+@media (max-width: 900px) {
   .Popular img {
     width: 99%;
   }

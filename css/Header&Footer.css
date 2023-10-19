@@ -2,7 +2,6 @@
 
 * {
   font-family: "b612";
- 
 }
 body {
   padding: 10px 60px;
@@ -18,7 +17,6 @@ header {
   top: 0;
   backdrop-filter: blur(400px);
   z-index: 1000;
- 
 }
 header .header {
   padding: 0px 20px;
@@ -112,12 +110,10 @@ header .header .login span img {
 }
 
 .fa-solid.fa-bars {
-	display: none;
-  }
-  
- 
+  display: none;
+}
 
-@media (max-width: 880px) {
+@media (max-width: 900px) {
   header {
     position: initial;
     backdrop-filter: initial;
@@ -155,19 +151,18 @@ header .header .login span img {
     padding: 10px;
   }
   .fa-solid.fa-bars {
-	display: block;
-	padding-left: 100px;
+    display: block;
+    padding-left: 50px;
   }
 
   .hide {
-	transform: translateY(-600%);
-	/* display: none; */
+    transform: translateY(-600%);
+    /* display: none; */
   }
 
   .afterHide {
-	margin-top: -160px !important;
-	transition: all 1s linear;
-   
+    margin-top: -160px !important;
+    transition: all 1s linear;
   }
 }
 
@@ -184,8 +179,15 @@ footer .footer {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   padding: 10px;
   column-gap: 20px;
-  row-gap: 20px;
+  row-gap: 0px;
   text-align: center;
+  transition: all 1s linear;
+}
+footer .footer div:first-child {
+  text-align: center;
+}
+footer .footer div:not(:first-child) {
+  margin-top: 40px;
 }
 footer .footer div .logoInnovation {
   display: flex;

@@ -37,7 +37,7 @@ section.Creativity .main button:hover {
 }
 
 
-@media (max-width: 880px) {
+@media (max-width: 900px) {
   section.Creativity {
     padding: 70px 40px 10px;
   }
@@ -80,7 +80,7 @@ section.second-Creativity .container .title {
   margin-top: 100px;
 }
 
-@media (max-width: 880px) {
+@media (max-width: 900px) {
   section.second-Creativity {
     height: 50vh;
     background-color: var(--mainColor);
@@ -126,7 +126,7 @@ section.third-Creativity .container div {
 
 }
 section.third-Creativity .container div img {
-  width: 90px;
+  width: 80px;
  
 }
 section.third-Creativity .container div div {
@@ -140,9 +140,12 @@ section.third-Creativity .container div div {
 section.third-Creativity .container div div p {
   margin-top: -10%;
 }
+section.third-Creativity .container div div h4 {
+  margin-top: -1px;
+}
 
 
-@media (max-width: 880px) {
+@media (max-width: 900px) {
   section.third-Creativity {
     height: fit-content;
     background-color: var(--mainColor);
@@ -191,7 +194,7 @@ section.third-Creativity .container div div p {
   left: -3%;
 }
 
-@media (max-width: 880px) {
+@media (max-width: 900px) {
   .Fourth-Creativity {
     height: 70vh;
     margin: 0 -2%;
@@ -218,7 +221,7 @@ section.third-Creativity .container div div p {
 .brands .main img {
   min-width: 100%;
 }
-@media (max-width: 880px) {
+@media (max-width: 900px) {
   .brands {
     height: 66vh;
     margin: 0 -2%;
@@ -299,7 +302,7 @@ section.third-Creativity .container div div p {
 .contact .main .form div.subscribe label {
   color: #d4dae2;
 }
-@media (max-width: 880px) {
+@media (max-width: 900px) {
   .contact {
     margin: 80px -2%;
     padding-inline: 5px;
