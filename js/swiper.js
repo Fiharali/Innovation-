@@ -1,10 +1,21 @@
-const swiper = new Swiper(".swiper", {
-  // Optional parameters
+const swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
   loop: true,
   speed: 1000,
-  // spaceBetween: 500,
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
+  mousewheel: {
+    invert: false,
+  },
+  ///////////////////////////////////////
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
 
+  ///////////////////////////////////////
   breakpoints: {
     640: {
       slidesPerView: 2,
@@ -14,7 +25,6 @@ const swiper = new Swiper(".swiper", {
       slidesPerView: 3,
       spaceBetween: 40,
     },
-
   },
   // If we need pagination
   pagination: {
@@ -22,14 +32,9 @@ const swiper = new Swiper(".swiper", {
     clickable: true,
   },
 
-  // Navigation arrows
-  // navigation: {
-  // 	nextEl: '.swiper-button-next',
-  // 	prevEl: '.swiper-button-prev',
-  // },
 
-  // And if we need scrollbar
-  scrollbar: {
-    el: ".swiper-scrollbar",
-  },
+ 
+
+
 });
+

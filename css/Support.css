@@ -99,6 +99,7 @@ section.contact div img {
 
 .faq div {
   margin: 10px;
+  
 }
 .faq div .qustion {
   background: #fbf1f1;
@@ -107,6 +108,7 @@ section.contact div img {
   margin: 10px;
   cursor: pointer;
   position: relative;
+  text-align: left;
 }
 
 .faq div .qustion span {
