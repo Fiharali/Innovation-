@@ -2,20 +2,18 @@ const swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
   loop: true,
   speed: 1000,
+  spaceBetween: 20,
   keyboard: {
     enabled: true,
     onlyInViewport: false,
   },
-  mousewheel: {
-    invert: false,
-  },
-  ///////////////////////////////////////
+  // mousewheel: {
+  //   invert: false,
+  // },
   autoplay: {
     delay: 2500,
     disableOnInteraction: false,
   },
-
-  ///////////////////////////////////////
   breakpoints: {
     640: {
       slidesPerView: 2,
@@ -31,10 +29,5 @@ const swiper = new Swiper(".mySwiper", {
     el: ".swiper-pagination",
     clickable: true,
   },
-
-
- 
-
-
 });
 

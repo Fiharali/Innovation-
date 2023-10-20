@@ -18,14 +18,13 @@ align-items: center;
 align-content: flex-start;
 } */
 .swiper {
-  width: 75%;
+  width: 80%;
   height: 100%;
   padding: 10% 12%;
   /* background-color: #ff0000; */
 }
-.swiper-slide{
-  margin: 100px 20px;
-
+.swiper-slide {
+  margin: 100px 0px;
 }
 section.main div .mainCard {
   border: 1px rgb(220, 218, 218) solid;
@@ -201,3 +200,40 @@ section.main div .mainCard i {
 }
 /* end services  */
 /* ################ */
+/* start modal  */
+.modal {
+  width: 500px;
+  height: 500px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-300%, -50%);
+  background: #ffffff;
+  z-index: 3000;
+  /* display: none; */
+  border-radius: 20px;
+  border:1px  #666666 solid;
+  overflow: hidden;
+  transition: all .7s ease-out;
+
+}
+
+.modal #closeModal {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+}
+
+.displayModal {
+  transform: translate(-50%, -50%);
+}
+.removeModal {
+  transform: translate(300%, -50%);
+}
+
+@media (max-width: 900px) {
+  .modal {
+    width: 200px;
+    height: 200px;
+  }
+}
