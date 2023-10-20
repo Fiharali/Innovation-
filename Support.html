@@ -60,14 +60,14 @@
     <section class="contact" id="afterHide">
         <div>
             <h1>contact Us</h1>
-            <form>
+            <form id="contact">
                 <label for="name">Name: </label><br>
-                <input type="text" placeholder="     Name" id="name"><br>
+                <input type="text" placeholder="     Name" id="name" class="inputs" minlength="5" maxlength="33"><br>
                 <label for="email">Email:</label><br>
-                <input type="email" placeholder="    Email" id="email"><br>
+                <input type="email" placeholder="    Email" id="email" class="inputs"><br>
                 <label for="message">Message:</label><br>
-                <textarea placeholder="    Your Message"id="message"></textarea><br>
-                <input type="submit" value="Send Message">
+                <textarea placeholder="    Your Message" id="message" class="inputs" minlength="10" maxlength="255"></textarea><br>
+                <input type="submit" value="Send Message" disabled id="btnSubmit">
             </form>
         </div>
         <div>
@@ -136,74 +136,75 @@
     <!-- start footer -->
     <footer>
         <div class="footer">
-          <div>
-            <div class="logoInnovation">
-              <img src="img/logo.png" alt="logoFooter">
-              <h1>Innovation</h1>
+            <div>
+                <div class="logoInnovation">
+                    <img src="img/logo.png" alt="logoFooter">
+                    <h1>Innovation</h1>
+                </div>
+                Terms of us | Privacy
+                <br> <br>
+                <small>Copyright by 2019 AliFihar, Inc</small>
             </div>
-            Terms of us | Privacy
-            <br> <br>
-            <small>Copyright by 2019 AliFihar, Inc</small>
-          </div>
-          <div>
-    
-            <details>
-              <summary>About Us</summary>
-              <br>
-              Support Center
-              <br><br>
-              Customer Support
-              <br><br>
-              About Us
-              <br><br>
-              Copyright
-              <br><br>
-            </details>
-          </div>
-          <div>
-            <details>
-              <summary>Our Information</summary>
-              <br>
-              Return Policy
-              <br><br>
-              Privacy Policy
-              <br><br>
-              Terms & Conditions
-              <br><br>
-              Site Map
-              <br><br>
-            </details>
-          </div>
-          <div>
-            <details>
-              <summary>My Account</summary>
-              <br>
-              Press inquiries
-              <br><br>
-              Social media
-              <br><br>
-              directories
-              <br><br>
-              Images & B-roll
-              <br><br>
-            </details>
-          </div>
-          <div>
-            <details>
-              <summary>Connect</summary>
-              <br>
-              <i class="fa-brands fa-facebook" style="color: #3b5998;"></i></i> Facebook
-              <br><br>
-              <i class="fa-brands fa-twitter" style="color: #55ACEE;"></i>Twitter
-              <br><br>
-              <i class="fa-brands fa-github" style="color: #161614;"></i> Github
-              <br><br>
-              <i class="fa-solid fa-basketball" style="color: #B2215A;"></i> </i>Dribble
-            </details>
-          </div>
+            <div>
+
+                <details>
+                    <summary>About Us</summary>
+                    <br>
+                    Support Center
+                    <br><br>
+                    Customer Support
+                    <br><br>
+                    About Us
+                    <br><br>
+                    Copyright
+                    <br><br>
+                </details>
+            </div>
+            <div>
+                <details>
+                    <summary>Our Information</summary>
+                    <br>
+                    Return Policy
+                    <br><br>
+                    Privacy Policy
+                    <br><br>
+                    Terms & Conditions
+                    <br><br>
+                    Site Map
+                    <br><br>
+                </details>
+            </div>
+            <div>
+                <details>
+                    <summary>My Account</summary>
+                    <br>
+                    Press inquiries
+                    <br><br>
+                    Social media
+                    <br><br>
+                    directories
+                    <br><br>
+                    Images & B-roll
+                    <br><br>
+                </details>
+            </div>
+            <div>
+                <details>
+                    <summary>Connect</summary>
+                    <br>
+                    <i class="fa-brands fa-facebook" style="color: #3b5998;"></i></i> Facebook
+                    <br><br>
+                    <i class="fa-brands fa-twitter" style="color: #55ACEE;"></i>Twitter
+                    <br><br>
+                    <i class="fa-brands fa-github" style="color: #161614;"></i> Github
+                    <br><br>
+                    <i class="fa-solid fa-basketball" style="color: #B2215A;"></i> </i>Dribble
+                </details>
+            </div>
         </div>
-      </footer>
-    <script src="js/About.js"></script>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/support.js"></script>
 </body>
 
 </html>
