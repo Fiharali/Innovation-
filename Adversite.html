@@ -15,11 +15,13 @@
   <link rel="stylesheet" href="css/Adversite.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
 
   <!-- start Header -->
+  <div class="overlay" id="overlay"></div>
   <header>
     <div class="header">
       <div class="logo">
@@ -53,8 +55,9 @@
   <!-- #################-->
   <!-- start modal       -->
   <div class="modal" id="modal">
-    <i class="fa-solid fa-xmark fa-xl"  id="closeModal"></i>
+    <i class="fa-solid fa-xmark fa-xl" id="closeModal"></i>
   </div>
+
   <!-- end modal       -->
   <!-- #################-->
   <!-- start main      -->
@@ -119,7 +122,7 @@
   <!-- #################-->
   <!-- start plan -->
   <div class="plan">
-    <section>
+    <section data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
       <h1>BASIC</h1>
       <del>25$</del><br>
       <span>15$ </span>
@@ -135,7 +138,7 @@
         <span class="buy">BUY</span>
       </div>
     </section>
-    <section>
+    <section data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
       <i class="fa-solid fa-circle fa-2xs" style="color: #ffffff;"></i>
       <small class="Recommended"> Recommended</small>
       <h1>ADVANCED</h1>
@@ -161,7 +164,7 @@
         <span class="buy">BUY</span>
       </div>
     </section>
-    <section>
+    <section data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
       <h1>EXPERT</h1>
       <del>55$</del><br>
       <span>45$</span>
@@ -199,7 +202,7 @@
     <!-- start sevices  -->
     <section class="sevices">
       <div class="allCards">
-        <div class="card">
+        <div class="card" data-aos="zoom-in" >
           <img src="img/3d.png" alt="3Dimage">
           <span>
             <h1>3D modeling & art</h1>
@@ -207,7 +210,7 @@
             <small> learn more <i class="fa-solid fa-angle-right" style="color: #8571ff;"></i> </small>
           </span>
         </div>
-        <div class="card">
+        <div class="card" data-aos="zoom-in">
           <img src="img/Digital.png" alt="Digital">
           <span>
             <h1>Digital promotion</h1>
@@ -215,7 +218,7 @@
             <small> learn more <i class="fa-solid fa-angle-right" style="color: #8571ff;"></i></small>
           </span>
         </div>
-        <div class="card">
+        <div class="card" data-aos="zoom-in">
           <img src="img/Busines.png" alt="Business">
           <span>
             <h1>Business Enterprise</h1>
@@ -226,7 +229,7 @@
       </div>
 
       <div class="allCards">
-        <div class="card">
+        <div class="card" data-aos="zoom-in">
           <img src="img/Marketing.png" alt="Marketing">
           <span>
             <h1>Marketing & advertising</h1>
@@ -234,7 +237,7 @@
             <small> learn more <i class="fa-solid fa-angle-right" style="color: #8571ff;"></i> </small>
           </span>
         </div>
-        <div class="card">
+        <div class="card" data-aos="zoom-in">
           <img src="img/Ultimate.png" alt="Ultimate">
           <span>
             <h1>Ultimate development</h1>
@@ -242,7 +245,7 @@
             <small> learn more <i class="fa-solid fa-angle-right" style="color: #8571ff;"></i></small>
           </span>
         </div>
-        <div class="card">
+        <div class="card" data-aos="zoom-in">
           <img src="img/Online.png" alt="Online">
           <span>
             <h1>Online support</h1>
@@ -329,7 +332,10 @@
   <script src="js/advertise.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   <script src="js/swiper.js"></script>
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

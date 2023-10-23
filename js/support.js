@@ -22,7 +22,7 @@ let inputs = document.querySelectorAll(" form#contact  .inputs");
 
 function check() {
   if (inputs[0].value == "" || inputs[1].value == "" || inputs[2].value == "") {
-    // console.log("vide");
+    btnSubmit.setAttribute("disabled","true");
   } else {
     // console.log(" note vide");
     btnSubmit.removeAttribute("disabled");
