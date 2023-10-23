@@ -23,31 +23,31 @@
 
 <body>
   <!-- start Header -->
-  <header> 
+  <header>
     <div class="header">
-      <div class="logo">
+      <a class="logo" href="/index.html">
         <img src="img/logo.png" alt="logo" />
         <span>Innovation </span>
-        <i class="fa-solid fa-bars  "   id="menu"></i>
-      </div>
+        <i class="fa-solid fa-bars  " id="menu"></i>
+      </a>
       <nav id="nav">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li class="ulDrop"><a href="Adversite.html">Advertise <i class="fa-solid fa-caret-down"></i></a>
-          <ul class="dropNav">
-            <li> Advertise </li>
-            <li> Advertise </li>
-            <li> Advertise </li>
+            <ul class="dropNav">
+              <li> Advertise </li>
+              <li> Advertise </li>
+              <li> Advertise </li>
 
-          </ul>
-          
+            </ul>
+
           </li>
           <li><a href="Support.html">Support</a></li>
           <li><a href>About</a></li>
         </ul>
       </nav>
       <div class="login" id="getLogin">Login
-        <span >
+        <span>
           Get Started
           <img src="img/getStarted.png" alt="getStarted">
         </span>
@@ -58,16 +58,16 @@
   <!-- #################-->
   <!-- start Why-what -->
   <div class="why-what" id="afterHide">
-    <h1>Why you choose our service?</h1>
-    <h1>What's our business promise?</h1>
-    <h1>What's our role model plan?</h1>
+    <h1 id="hslide1">Why you choose our service?</h1>
+    <h1 id="hslide2">What's our business promise?</h1>
+    <h1 id="hslide3">What's our role model plan?</h1>
   </div>
   <hr>
 
   <!-- end Why-what  -->
   <!-- ############  -->
   <!-- start lending   -->
-  <section class="lending">
+  <section class="lending" id="slideToShow1">
     <div>
       <h1>We will turn your idea in <br>the successful business <br>model framework</h1>
       <p>Get your tests delivered at let home collect sample from <br> the victory of the managments that supplies best
@@ -84,6 +84,44 @@
     </div>
     <div>
       <img src="img/illustration.png" alt="illustration">
+    </div>
+  </section>
+  <section class="lending slideHide" id="slideToShow2">
+    <div>
+      <h1>dolor sit amet consectetur<br> adipisicing elit. A, <br>Lorem ipsum .</h1>
+      <p>incidunt cumque vero itaque laboriosam ad deserunt eius <br> facilis qua adipisicing elit dolor <br> sit amet
+        consectetur</p>
+      <div>
+        <span> <i class="fa-solid fa-circle-check" style="color: #3fdbb1;"></i> Medical and vision</span>
+        <span> <i class="fa-solid fa-circle-check" style="color: #3fdbb1;"></i> HSAs and FSAs</span>
+        <br>
+        <span> <i class="fa-solid fa-circle-check" style="color: #3fdbb1;"></i> Life insurance</span>
+        <span> <i class="fa-solid fa-circle-check" style="color: #3fdbb1;"></i> Commuter benefits</span>
+      </div>
+      <br>
+      <span>Explore more <i class="fa-solid fa-angle-right" style="color: #3183ff;"></i></span>
+    </div>
+    <div>
+      <img src="img/adversite.png" alt="illustration">
+    </div>
+  </section>
+  <section class="lending slideHide" id="slideToShow3">
+    <div>
+      <h1>We will turn your idea in <br>the successful business <br>model framework</h1>
+      <p>Get your tests delivered at let home collect sample from <br> the victory of the managments that supplies best
+        design <br> system guidelines ever.</p>
+      <div>
+        <span> <i class="fa-solid fa-circle-check" style="color: #3fdbb1;"></i> Medical and vision</span>
+        <span> <i class="fa-solid fa-circle-check" style="color: #3fdbb1;"></i> HSAs and FSAs</span>
+        <br>
+        <span> <i class="fa-solid fa-circle-check" style="color: #3fdbb1;"></i> Life insurance</span>
+        <span> <i class="fa-solid fa-circle-check" style="color: #3fdbb1;"></i> Commuter benefits</span>
+      </div>
+      <br>
+      <span>Explore more <i class="fa-solid fa-angle-right" style="color: #3183ff;"></i></span>
+    </div>
+    <div>
+      <img src="img/logo.png" alt="illustration">
     </div>
   </section>
   <!-- end lending  -->
@@ -193,7 +231,7 @@
 
         <details>
           <summary>About Us</summary>
-            <br>
+          <br>
           Support Center
           <br><br>
           Customer Support
@@ -248,6 +286,7 @@
     </div>
   </footer>
   <script src="js/main.js"></script>
+  <script src="js/About.js"></script>
 </body>
 
 </html>

@@ -62,8 +62,7 @@ section.contact div form input[type="submit"] {
 
 section.contact div form input[type="submit"]:disabled {
   /* text-decoration: line-through; */
-  opacity: .2;
-  
+  opacity: 0.2;
 }
 section.contact div img {
   width: 70%;
@@ -77,14 +76,12 @@ section.contact div img {
   section.contact div form input[type="text"],
   section.contact div form input[type="email"] {
     width: 250px;
-
   }
   section.contact div form textarea {
     width: 250px;
   }
   section.contact div form input[type="submit"] {
     width: 275px;
-    
   }
 }
 /* end contact  */
@@ -97,14 +94,12 @@ section.contact div img {
   margin: 200px auto;
   /* width: fit-content; */
   width: 70%;
-
   padding: 10px;
   transition: all 1s linear;
 }
 
 .faq div {
   margin: 10px;
-  
 }
 .faq div .qustion {
   background: #fbf1f1;
@@ -136,5 +131,14 @@ section.contact div img {
 
 .qustion.active span {
   transform: rotate(45deg);
-  transition: all .5s linear;
+  transition: all 0.5s linear;
+}
+@media (max-width: 900px) {
+  .faq {
+    margin: 200px 0;
+    width: 97%;
+  }
+  .faq div .qustion {
+    margin: 10px 0;
+  }
 }

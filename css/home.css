@@ -192,6 +192,7 @@ section.third-Creativity .container div div h4 {
   position: absolute;
   top: -10%;
   left: -3%;
+  z-index: -100;
 }
 
 @media (max-width: 900px) {

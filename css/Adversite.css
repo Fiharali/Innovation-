@@ -238,11 +238,11 @@ section.main div .mainCard i {
   top: 0;
   z-index: 2000;
   cursor: pointer;
-  transform: scale(0);
+  display: none;
   transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .overlayBlock {
-  transform: scale(1);
+  display: block;
 }
 @media (max-width: 900px) {
   .modal {

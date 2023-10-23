@@ -13,6 +13,7 @@ div.why-what h1 {
   font-size: 15px;
   font-family: "DM Sans";
   font-weight: 600;
+  cursor: pointer;
 }
 @media (max-width: 900px) {
   div.why-what {
@@ -29,6 +30,7 @@ section.lending {
   column-gap: 40px;
   row-gap: 60px;
   flex-wrap: wrap;
+  transition: all .5s linear;
 }
 .lending div img {
   width: 85%;
@@ -36,6 +38,14 @@ section.lending {
 .lending div h1 {
   color: #0f2137;
   font-size: 32px;
+}
+.slideHide{
+  position: fixed;
+  opacity: 0;
+}
+
+.slideDesign{
+text-decoration: underline;
 }
 .lending div p {
   color: #02073e;
@@ -136,11 +146,11 @@ section.Popular .title p {
 }
 .Popular .textCard div img {
   filter: grayscale(50%);
-  transition: all .2s linear;
+  transition: all 0.2s linear;
 }
 .Popular .textCard div:hover img {
   filter: grayscale(0%);
-  transform:scale(1.01);
+  transform: scale(1.01);
 }
 .Popular .textCard div p {
   color: #0f2137b1;
@@ -178,3 +188,5 @@ section.Popular .title p {
 
 /* end Popular    */
 /* ################ */
+
+
