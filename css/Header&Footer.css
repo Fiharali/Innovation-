@@ -216,3 +216,9 @@ footer .footer div {
 }
 
 /* end Footer   */
+.navStyle{
+  text-decoration: none;
+  list-style: none;
+ font-size: bolder;
+}
+
