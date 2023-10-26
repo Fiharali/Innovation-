@@ -65,6 +65,17 @@ section.contact div form input[type="submit"] {
   outline: none;
 }
 
+section.contact div form .errorText {
+  color: red;
+  font-weight: lighter;
+  font-size: small;
+  opacity: 0;
+}
+
+/* .errorTextShow {
+  opacity: 1;
+} */
+
 section.contact div form input[type="submit"]:disabled {
   /* text-decoration: line-through; */
   opacity: 0.2;
@@ -76,7 +87,7 @@ section.contact div img {
 @media (max-width: 900px) {
   section.contact {
     padding-left: 0px;
-    text-align: center;
+    text-align: left;
   }
   section.contact div form input[type="text"],
   section.contact div form input[type="email"] {

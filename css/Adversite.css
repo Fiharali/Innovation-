@@ -213,8 +213,19 @@ section.main div .mainCard i {
   /* display: none; */
   border-radius: 20px;
   border: 1px #666666 solid;
-  overflow: hidden;
+  overflow: auto;
   transition: all 0.7s ease-out;
+  /* color: #8571ff; */
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.modalBody {
+  text-align: center;
+  padding: 10%;
+}
+.modalBody p {
+  text-align: justify;
 }
 
 .modal #closeModal {

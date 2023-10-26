@@ -63,11 +63,18 @@
             <form id="contact">
                 <label for="name">Name: </label><br>
                 <input type="text" placeholder="     Name" id="name" class="inputs" value=""><br>
+                <span class="errorText errorTextShow"> ( 5 & 20) @,1, are not allowed</span>
+                <br>
                 <label for="email">Email:</label><br>
                 <input type="email" placeholder="    Email" id="email" class="inputs"><br>
+                <span class="errorText "> please enter valid Email</span>
+                <br>
                 <label for="message">Message:</label><br>
                 <textarea placeholder="    Your Message" id="message" class="inputs" minlength="10"
                     maxlength="255"></textarea><br>
+                <span class="errorText "> min length 10</span>
+
+                <br>
                 <input type="submit" value="Send Message" disabled id="btnSubmit">
             </form>
         </div>
