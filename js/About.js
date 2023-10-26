@@ -62,7 +62,6 @@ function nextSlide(dir) {
 
 prev.addEventListener("click", () => {
   nextSlide("next");
-  console.log("jfsv");
 });
 
 next.addEventListener("click", () => {

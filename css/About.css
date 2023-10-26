@@ -148,7 +148,9 @@ section.superheros div p {
 @media (max-width: 900px) {
   section.superheros {
     /* width: 10vw; */
-    overflow: scroll;
+    /* overflow: scroll; */
+    width: 300px;
+    height: 400px;
   }
 
   section.superheros::-webkit-scrollbar {

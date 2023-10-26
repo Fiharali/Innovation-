@@ -232,9 +232,9 @@ section.main div .mainCard i {
 .overlay {
   height: 100%;
   width: 93vw;
-  background-color: #ffffffbd;
+  background-color: #fbfbfbbd;
   position: fixed;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(5px);
   top: 0;
   z-index: 2000;
   cursor: pointer;

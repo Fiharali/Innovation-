@@ -27,11 +27,11 @@ section.contact div form input[type="text"],
 section.contact div form input[type="email"] {
   width: 300px;
   padding: 20px;
-  border-radius: 19px;
+  border-radius: 10px;
   margin: 10px;
   margin-left: 0;
-  background-color: #d9d9d9;
-  border: none;
+  background-color: #ffffff;
+  border: 3px rgba(0, 0, 0, 0.426) solid;
   outline: none;
 }
 section.contact div form textarea {
@@ -41,12 +41,17 @@ section.contact div form textarea {
   border-radius: 19px;
   margin: 10px;
   margin-left: 0;
-  background-color: #d9d9d9;
-  border: none;
+  background-color: #ffffff;
+  border: 3px rgba(0, 0, 0, 0.426) solid;
   outline: none;
   resize: none;
 }
 
+section.contact div form input[type="text"].error,
+section.contact div form input[type="email"].error,
+section.contact div form textarea.error {
+  border: 3px rgb(255, 0, 0) solid;
+}
 section.contact div form input[type="submit"] {
   width: 335px;
   padding: 15px;

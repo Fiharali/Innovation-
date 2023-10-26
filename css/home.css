@@ -35,7 +35,8 @@ section.Creativity .main button:hover {
 
 @media (max-width: 900px) {
   section.Creativity {
-    padding: 70px 40px 10px;
+    padding: 70px 0px 10px;
+    margin: 0 2%;
   }
   section.Creativity .main img {
     max-width: 100%;
@@ -78,10 +79,10 @@ section.second-Creativity .container .title {
   section.second-Creativity {
     height: 50vh;
     background-color: var(--mainColor);
-    /* padding: 0; */
-    margin: -2%;
+    margin: 0 2%;
     margin-top: 150px;
   }
+
   section.second-Creativity .container img {
     width: 70%;
     height: auto;
@@ -137,16 +138,16 @@ section.third-Creativity .container div div h4 {
 @media (max-width: 900px) {
   section.third-Creativity {
     height: fit-content;
-    background-color: var(--mainColor);
-    margin: 0 -2%;
+    margin: 0 2%;
   }
   section.third-Creativity .container div {
     padding-left: 0px;
     padding-right: 0px;
     gap: 2px;
   }
+
   section.third-Creativity .container {
-    padding-top: 50px;
+    padding-top:140px;
   }
 }
 /* end third-Creativity   */
@@ -185,7 +186,7 @@ section.third-Creativity .container div div h4 {
 @media (max-width: 900px) {
   .Fourth-Creativity {
     height: 70vh;
-    margin: 0 -2%;
+    margin: 0 2%;
   }
 }
 /* end -Creativity   */
@@ -211,7 +212,7 @@ section.third-Creativity .container div div h4 {
 @media (max-width: 900px) {
   .brands {
     height: 66vh;
-    margin: 0 -2%;
+    margin: 0 2%;
   }
 }
 /* end Brands  */
@@ -291,22 +292,29 @@ section.third-Creativity .container div div h4 {
   .contact {
     margin: 80px -2%;
     padding-inline: 5px;
-    width: 80%;
+    width: 93%;
+    margin: 40px 2%;
   }
   .contact .main {
-    height: 100vh;
+    height: 100vh; 
+    /*  background-color: #1900ff; */
   }
 
   .contact .main .form {
     height: 60vh;
     padding-bottom: 12%;
+    padding: 10px;
   }
   .contact .main .form div.subscribe button {
-    margin-top: 30px;
+    margin-top: 10px;
   }
 
   .contact .main .form div.subscribe input[type="checkbox"] {
     margin-top: 10px;
+  }
+  .contact .main .form div.subscribe input[type="text"] {
+    width: 100%;
+    margin-top: -50px;
   }
 }
 /* end contact   */
